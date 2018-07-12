@@ -5,10 +5,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Features
 - Angular 6, directive appCurrency in input element
 - Configurable decimal separator
- - decimalChar
- - CurrencyDirective.defaultDecimalChar
+    - decimalChar
+  - CurrencyDirective.defaultDecimalChar
 - Configurable decimal count
- - decimalCount
+  -- decimalCount
  - CurrencyDirective.defaultDecimalCount
 - Auto align decimal count
 - Editing similar to desktop applications
