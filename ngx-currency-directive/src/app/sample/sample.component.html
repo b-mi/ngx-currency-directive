@@ -1,3 +1,16 @@
-<p>
-  sample works!
-</p>
+<form [formGroup]="form" class="arrange-vertically">
+
+  <mat-form-field *ngFor="let fld of fields" [hintLabel]="'divider: ' + fld.divider">
+    <input matInput [formControlName]="fld.name" [placeholder]="fld.name"
+    appCurrency [formControl]="form.get(fld.name)"
+    [decimalCount]="fld.dplaces" [decimalChar]="fld.divider"
+
+    />
+    <mat-hint align="end">dec. places: {{fld.dplaces}}</mat-hint>
+  </mat-form-field>
+
+</form>
+<div>
+  <p>{{form.value | json}}</p>
+</div>
+
