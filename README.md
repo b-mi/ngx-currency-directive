@@ -8,11 +8,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - formControlName + formGroup properties
   - formControl property
 - Configurable decimal separator - default is ','
-  - decimalChar
-  - CurrencyDirective.defaultDecimalChar
+  - decimalChar (input property)
+  - CurrencyDirective.defaultDecimalChar (global setting)
 - Configurable decimal count - default is 2
-  - decimalCount
-  - CurrencyDirective.defaultDecimalCount
+  - decimalCount (input property)
+  - CurrencyDirective.defaultDecimalCount  (global setting
 - Auto align decimal count
 - Editing similar to desktop applications
 - Tested with Angular Material 6 (no depenednecy on angular material)

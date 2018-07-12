@@ -14,7 +14,7 @@ export class SampleComponent implements OnInit {
     { name: 'num1', value: '', divider: '.', dplaces: 2 },
     { name: 'num2', value: 123.45, divider: ',', dplaces: 3 },
     { name: 'num3', value: '23.4', divider: '.', dplaces: 4 },
-    { name: 'num4', value: '3.456789', divider: ',', dplaces: 5 },
+    { name: 'num4', value: '3.456789445', divider: ',', dplaces: 5 },
     { name: 'num5', value: 0, divider: '.', dplaces: 6 }
 
   ];

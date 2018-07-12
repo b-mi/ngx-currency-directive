@@ -1,7 +1,7 @@
 <form [formGroup]="form" class="arrange-vertically">
 
   <mat-form-field *ngFor="let fld of fields" [hintLabel]="'divider: ' + fld.divider">
-    <input matInput [formControlName]="fld.name" [placeholder]="fld.name"
+    <input matInput [formControlName]="fld.name" [placeholder]="fld.name + ' - initial model data: ' + fld.value"
     appCurrency [formControl]="form.get(fld.name)"
     [decimalCount]="fld.dplaces" [decimalChar]="fld.divider"
 
