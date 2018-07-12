@@ -2,6 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+## Features
+- Angular 6, directive appCurrency in input element
+- Configurable decimal separator
+ - decimalChar
+ - CurrencyDirective.defaultDecimalChar
+- Configurable decimal count
+ - decimalCount
+ - CurrencyDirective.defaultDecimalCount
+- Auto align decimal count
+- Editing similar to desktop applications
+- Reactive forms
+ - formControlName + formGroup
+ - formControl
+
+## Sample usage
+`<input appCurrency decimalCount="3" decimalChar="," formControlName="num1" [formGroup]="form" />`
+
+## Project preview
+![sample.png](sample.png "sample.png")
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
