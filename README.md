@@ -29,9 +29,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Material sample
 ```
-<mat-form-control>
+<mat-form-field>
     <input matInput appCurrency formControlName="num1" [formGroup]="form" />
-</mat-form-control>
+</mat-form-field>
 ```
 
 

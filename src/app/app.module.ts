@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppDashboardComponent } from './app-dashboard/app-dashboard.component';
 import { MatGridListModule, MatCardModule, MatMenuModule, MatIconModule, MatButtonModule,
-        MatFormFieldModule, MatInputModule  } from '@angular/material';
+        MatFormFieldModule, MatInputModule, MatToolbarModule  } from '@angular/material';
 import { SampleComponent } from './sample/sample.component';
 import { CurrencyDirective } from './currency.directive';
 
@@ -27,7 +27,8 @@ import { CurrencyDirective } from './currency.directive';
       MatIconModule,
       MatButtonModule,
       MatFormFieldModule,
-      MatInputModule
+      MatInputModule,
+      MatToolbarModule
    ],
    providers: [],
    bootstrap: [
