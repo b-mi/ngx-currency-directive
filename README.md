@@ -5,16 +5,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Features
 - Angular 6, directive appCurrency in input element
 - Configurable decimal separator
-    - decimalChar
+  - decimalChar
   - CurrencyDirective.defaultDecimalChar
 - Configurable decimal count
-  -- decimalCount
- - CurrencyDirective.defaultDecimalCount
+  - decimalCount
+  - CurrencyDirective.defaultDecimalCount
 - Auto align decimal count
 - Editing similar to desktop applications
 - Reactive forms
- - formControlName + formGroup
- - formControl
+  - formControlName + formGroup
+  - formControl
 - Tested with Angular Material 6
 
 ## Sample usage
@@ -27,7 +27,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Contributions are welcome!
 - convert into decimal into model
 - remove need of formGroup property in directive
-- editing behavior improvement
+- editing behavior improvements
 
 ## Development server
 
