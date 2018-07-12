@@ -4,10 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Features
 - Angular 6, directive appCurrency in input element
-- Configurable decimal separator
+- Configurable decimal separator (default is ,)
   - decimalChar
   - CurrencyDirective.defaultDecimalChar
-- Configurable decimal count
+- Configurable decimal count (default is 2)
   - decimalCount
   - CurrencyDirective.defaultDecimalCount
 - Auto align decimal count
@@ -19,6 +19,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Sample usage
 `<input appCurrency decimalCount="3" decimalChar="," formControlName="num1" [formGroup]="form" />`
+
+## Minimal sample
+`<input appCurrency formControlName="num1" [formGroup]="form" />`
+
+## Material sample
+`<mat-form-control>
+    <input matInput appCurrency formControlName="num1" [formGroup]="form" />
+</mat-form-control>`
+
 
 ## Project preview
 ![sample.png](sample.png "sample.png")
