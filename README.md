@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   - CurrencyDirective.defaultDecimalCount
 - Auto align decimal count
 - Editing similar to desktop applications
-- Tested with Angular Material 6
+- Tested with Angular Material 6 (no depenednecy on angular material)
 
 ## Sample usage
 ```
@@ -35,7 +35,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ```
 
 
-## Project preview
+## Sample project preview
 ![sample.png](sample.png "sample.png")
 
 ## Contributing
