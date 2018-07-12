@@ -15,12 +15,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Reactive forms
  - formControlName + formGroup
  - formControl
+- Tested with Angular Material 6
 
 ## Sample usage
 `<input appCurrency decimalCount="3" decimalChar="," formControlName="num1" [formGroup]="form" />`
 
 ## Project preview
 ![sample.png](sample.png "sample.png")
+
+## Contributing
+Contributions are welcome!
+- convert into decimal into model
+- remove need of formGroup property in directive
+- editing behavior improvement
 
 ## Development server
 
