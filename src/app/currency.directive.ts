@@ -1,4 +1,4 @@
-import { ElementRef, Directive, HostListener, Input, OnInit, Renderer } from '@angular/core';
+import { ElementRef, Directive, HostListener, Input, OnInit, Renderer2 } from '@angular/core';
 import { FormGroup, AbstractControl } from '@angular/forms';
 
 @Directive({
@@ -16,7 +16,7 @@ export class CurrencyDirective implements OnInit {
 
   ctl: AbstractControl;
   constructor(private el: ElementRef,
-    private renderer: Renderer) {
+    private renderer: Renderer2) {
   }
 
   ngOnInit() {
